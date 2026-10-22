@@ -8,9 +8,12 @@ Prototipo de editor gráfico para documentar hallazgos cervicales sobre un esque
 
 [Explorar el editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
 
-<img src="assets/mobile.png" alt="Editor de Mapa cervical en una pantalla móvil, sin datos de pacientes" width="320">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/screenshots/editor-mobile.webp">
+  <img src="assets/screenshots/editor-desktop.webp" alt="Editor de Mapa cervical con esquema anatómico y herramientas de dibujo; estudio vacío sin identificadores de pacientes" width="100%">
+</picture>
 
-*Captura del navegador a tamaño móvil; no sustituye una prueba en un teléfono físico.*
+Demo pública, 22 de octubre de 2026; estudio vacío en una sesión nueva del navegador. [Móvil (390 × 844, escala 2)](assets/screenshots/editor-mobile.webp) · [Procedencia de las capturas](assets/screenshots/README.md).
 
 ## El problema
 
@@ -39,6 +42,10 @@ Prototipo funcional de documentación gráfica. Las anotaciones las realiza el u
 El editor utiliza el almacenamiento local del navegador para recuperar el trabajo y permite descargar una copia editable. El almacenamiento local puede perderse al borrar los datos del navegador; conviene conservar la copia descargada.
 
 Para explorar esta demo, utiliza ejemplos ficticios sin identificadores de pacientes. El alojamiento de la demo no constituye un sistema institucional de historia clínica ni un repositorio de estudios.
+
+## Evidencia disponible
+
+La demo y las capturas muestran la interfaz y un estudio vacío. Este repositorio presenta el proyecto; no distribuye un paquete completo de implementación. La descripción de almacenamiento y tecnología procede de la documentación del autor. La captura no valida la precisión anatómica, el documento impreso ni su uso asistencial.
 
 ## Tecnología
 
