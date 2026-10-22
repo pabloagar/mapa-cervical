@@ -8,9 +8,12 @@ A graphical editor prototype for documenting findings on a neck anatomy diagram.
 
 [Explore the editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
 
-<img src="assets/mobile.png" alt="Mapa cervical annotation tools and neck anatomy diagram in a mobile browser viewport, without patient data" width="320">
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/screenshots/editor-mobile.webp">
+  <img src="assets/screenshots/editor-desktop.webp" alt="Mapa cervical editor with anatomy diagram and drawing tools; blank study with no patient identifiers" width="100%">
+</picture>
 
-*Mobile browser capture with no patient data. The app interface is in Spanish.*
+Public demo, October 22, 2026; a blank study in a fresh browser context. [Mobile (390 × 844, 2×)](assets/screenshots/editor-mobile.webp) · [Capture provenance](assets/screenshots/README.md).
 
 ## The problem
 
@@ -39,6 +42,10 @@ A working graphical documentation prototype. The user creates the annotations: t
 The editor uses browser storage to recover work and lets users download an editable copy. Browser storage can be lost when site data is cleared; keeping the downloaded copy is advisable.
 
 Explore the demo using fictional examples without patient identifiers. The demo is not an institutional health record system or study repository.
+
+## Available evidence
+
+The demo and captures show the interface and a blank study. This repository presents the project; it does not distribute a complete implementation package. Storage and technology descriptions are maintainer-documented. The capture does not validate anatomical accuracy, printed output or clinical use.
 
 ## Technology
 

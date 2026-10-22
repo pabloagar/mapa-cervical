@@ -1,0 +1,46 @@
+{
+  "captureDate": "2026-10-22",
+  "timezone": "America/Santiago",
+  "browser": "Google Chrome (headless, Playwright)",
+  "browserVersion": "155.0.8059.85",
+  "sourceCommit": "f085f7bbb383f7cb33bd7f8b9073bd8af329e78b",
+  "method": "Fresh contexts. Mobile 390x844 CSS px at deviceScaleFactor 2; desktop 1440x900 at 1. Original viewport screenshots, no crop, no DOM edits, no artificial screens. WebP encoding only; no recoloring or simulated dark mode.",
+  "captures": [
+    {
+      "file": "editor-mobile.webp",
+      "source": "mapa-mobile.png",
+      "url": "https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site/",
+      "capturedAt": "2026-10-22T11:35:59.128Z",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scale": 2,
+      "width": 780,
+      "height": 1688,
+      "bytes": 72972,
+      "rawSha256": "5094ec588adfba2426f879a36b8c8405103952406ce2768a6f01a99f18c86033",
+      "sha256": "84dd6e78ccff9f26ddc42a274c2eb45438ce3bac764c61d70fecddffea818ec4",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "file": "editor-desktop.webp",
+      "source": "mapa-desktop.png",
+      "url": "https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site/",
+      "capturedAt": "2026-10-22T11:35:59.128Z",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scale": 1,
+      "width": 1440,
+      "height": 900,
+      "bytes": 89226,
+      "rawSha256": "5a93989ae0869cd2fc88b2e5cb6a78806369b57b67caa3c3ed5b93a884a2fab2",
+      "sha256": "8f9ad7d06e0b917f45536d8941af552ac0dc7cc5a877f06417417fd499b907bf",
+      "status": 200,
+      "errors": []
+    }
+  ]
+}
