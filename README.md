@@ -2,52 +2,43 @@
 
 **English** · [Leer en español](README.es.md)
 
-**An editable neck anatomy diagram, from annotations to an A4 printout.**
+**Annotate a neck diagram. Edit the marks. Prepare an A4 page.**
 
-A graphical editor prototype for documenting findings on a neck anatomy diagram. It supports drawings, text and arrows, saving an editable study and preparing a printable output.
+A graphical documentation prototype for keeping drawings, text and arrows editable instead of redrawing a paper diagram.
 
-[Explore the editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
+[Explore the editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Contact](mailto:pablo.aguirre.araya@gmail.com)
 
-<img src="assets/mobile.png" alt="Mapa cervical annotation tools and neck anatomy diagram in a mobile browser viewport, without patient data" width="320">
+**Working prototype.** Manual annotation only; no automatic interpretation, diagnosis or clinical staging. Clinical workflow evaluation remains pending.
 
-*Mobile browser capture with no patient data. The app interface is in Spanish.*
+<img src="assets/mobile-annotation.webp" alt="Mobile neck diagram editor with a fictional ellipse annotation and selection controls" width="300">
 
-## The problem
+*Real 390 × 844 mobile capture. Fictional marks; no patient identifiers. Spanish interface.*
 
-Paper diagrams help communicate the location of a finding, but correcting an annotation or revisiting a study can require redrawing part of the document. This project explores how to preserve that visual approach while making its elements editable.
+## Annotation and editing
 
-## What it does
+- Freehand drawing, ellipses, contours, lines, text and arrows.
+- Select, move, resize and rotate elements; change color, stroke and fill.
+- Undo and redo, save an editable study and reopen it.
+- Prepare an A4 output for browser printing or PDF export.
 
-- Draw freehand strokes, ellipses, contours and lines.
-- Add text and arrows to the diagram.
-- Select, move, resize and rotate drawings.
-- Adjust colors, stroke width and fill transparency.
-- Undo and redo changes.
-- Save and reopen an editable study.
-- Prepare an A4 page for printing or saving as PDF through the browser.
+![Desktop annotation editor showing an editable ellipse and fictional demonstration text](assets/desktop-annotation.webp)
 
-## Status and scope
+## From editing to print
 
-A working graphical documentation prototype. The user creates the annotations: the editor does not interpret images or determine clinical staging automatically. Its use in a clinical workflow awaits evaluation.
+<img src="assets/print-a4.webp" alt="Actual print stylesheet rendering of an A4 page with a fictional annotation, blank patient fields and no editor controls" width="440">
 
-## My contribution
+*Actual browser print rendering. “DEMO · ficticio” is a manually entered demonstration label, not a clinical finding. [Full-page editor view](assets/desktop-print-layout.webp).*
 
-**Dr. Pablo Aguirre Araya, physician in Chile's MGZ public service program, Arica.** Identifying the need, defining the annotation workflow and making design decisions, with iterative AI-assisted development.
+## Scope, storage and assets
 
-## Storage and data
+The user supplies every annotation. Browser storage can recover work, and a downloaded editable copy can be reopened. Clearing site data can remove the local copy. This public demo is not a patient record system; use fictional examples without identifiers.
 
-The editor uses browser storage to recover work and lets users download an editable copy. Browser storage can be lost when site data is cleared; keeping the downloaded copy is advisable.
+Institutional wording visible in the existing template does not establish institutional endorsement. Provenance and redistribution permissions for anatomical assets still need review before a source-and-assets package is released. This repository contains the presentation only.
 
-Explore the demo using fictional examples without patient identifiers. The demo is not an institutional health record system or study repository.
+HTML, CSS and JavaScript, with SVG annotations and the browser's printing tools.
 
-## Technology
+## My contribution and next steps
 
-HTML, CSS and JavaScript, with SVG elements for annotations. Printing uses the browser's built-in options.
+Need definition, annotation workflow and interface decisions, with AI-assisted development. **Pablo Aguirre Araya, physician in Chile.** Next: observe professional use, evaluate print legibility and study recovery, and review asset permissions.
 
-## Next steps
-
-- Observe professional use and review the clarity of the tools.
-- Evaluate print legibility and study recovery.
-- Review the provenance and permissions of anatomical assets before distributing a code and asset package.
-
-[Open the demo](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Contact](mailto:pablo.aguirre.araya@gmail.com)
+[Open the demo](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Capture details](docs/screenshots.md)
