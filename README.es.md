@@ -1,53 +1,44 @@
 # Mapa cervical
 
-[English](README.md) · **Español**
+[Read in English](README.md) · **Español**
 
-**Un esquema anatómico que puedes anotar, editar y llevar a una hoja A4.**
+**Anotar un esquema cervical. Editar las marcas. Preparar una hoja A4.**
 
-Prototipo de editor gráfico para documentar hallazgos cervicales sobre un esquema anatómico. Permite trabajar con dibujos, texto y flechas, conservar un archivo editable y preparar una salida para impresión.
+Prototipo de documentación gráfica que conserva editables los dibujos, textos y flechas, evitando tener que rehacer un esquema en papel.
 
-[Explorar el editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site)
+[Explorar el editor](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Contacto](mailto:pablo.aguirre.araya@gmail.com)
 
-<img src="assets/mobile.png" alt="Editor de Mapa cervical en una pantalla móvil, sin datos de pacientes" width="320">
+**Prototipo funcional.** Anotación manual, sin interpretación, diagnóstico ni etapificación automática. Pendiente de evaluación en un flujo clínico.
 
-*Captura del navegador a tamaño móvil; no sustituye una prueba en un teléfono físico.*
+<img src="assets/mobile-annotation.webp" alt="Editor móvil del esquema cervical con elipse ficticia y controles de selección" width="300">
 
-## El problema
+*Captura móvil real a 390 × 844. Marcas ficticias, sin identificadores de pacientes. Interfaz en español.*
 
-Los esquemas en papel permiten comunicar la localización de un hallazgo, pero corregir una anotación o retomar un estudio puede exigir rehacer parte del documento. El proyecto explora cómo conservar esa forma de representación y hacer editables sus elementos.
+## Anotación y edición
 
-## Qué permite hacer
+- Dibujo libre, elipses, contornos, líneas, textos y flechas.
+- Seleccionar, mover, redimensionar y girar elementos; cambiar color, grosor y relleno.
+- Deshacer y rehacer, guardar un estudio editable y volver a abrirlo.
+- Preparar una hoja A4 para impresión o exportación a PDF desde el navegador.
 
-- Dibujar trazos libres, elipses, contornos y líneas.
-- Añadir texto y flechas sobre el esquema.
-- Seleccionar, mover, redimensionar y girar los dibujos.
-- Ajustar colores, grosor y transparencia.
-- Deshacer y rehacer cambios.
-- Guardar y volver a abrir un estudio editable.
-- Preparar una hoja A4 para imprimir o guardar como PDF desde el navegador.
+![Editor de escritorio con elipse editable y texto ficticio de demostración](assets/desktop-annotation.webp)
 
-## Estado y alcance
+## De la edición a la impresión
 
-Prototipo funcional de documentación gráfica. Las anotaciones las realiza el usuario: el editor no interpreta imágenes ni calcula una etapificación automáticamente. Su uso dentro de un flujo clínico está pendiente de validación.
+<img src="assets/print-a4.webp" alt="Renderizado real de impresión A4 con anotación ficticia, campos personales vacíos y sin controles del editor" width="440">
 
-## Mi aporte
+*Renderizado real de impresión del navegador. “DEMO · ficticio” es una etiqueta ingresada manualmente, no un hallazgo clínico. [Vista de hoja completa en el editor](assets/desktop-print-layout.webp).*
 
-**Dr. Pablo Aguirre Araya, médico general de zona en Arica.** Identificación de la necesidad, definición del flujo de anotación y decisiones de diseño, con desarrollo iterativo apoyado por IA.
+## Alcance, almacenamiento y recursos
 
-## Guardado y datos
+El usuario crea cada anotación. El navegador permite recuperar trabajo y volver a abrir una copia editable descargada. Borrar los datos del sitio puede eliminar la copia local. Esta demo pública no es una ficha clínica; úsala con ejemplos ficticios sin identificadores.
 
-El editor utiliza el almacenamiento local del navegador para recuperar el trabajo y permite descargar una copia editable. El almacenamiento local puede perderse al borrar los datos del navegador; conviene conservar la copia descargada.
+Las menciones institucionales de la plantilla existente no demuestran respaldo institucional. La procedencia y los permisos de redistribución de los recursos anatómicos requieren revisión antes de liberar un paquete de código y recursos. Este repositorio contiene solo la presentación.
 
-Para explorar esta demo, utiliza ejemplos ficticios sin identificadores de pacientes. El alojamiento de la demo no constituye un sistema institucional de historia clínica ni un repositorio de estudios.
+HTML, CSS y JavaScript, con anotaciones SVG y herramientas de impresión del navegador.
 
-## Tecnología
+## Mi aporte y próximos pasos
 
-HTML, CSS y JavaScript, con elementos SVG para las anotaciones. La impresión utiliza las opciones del navegador.
+Definición de la necesidad, flujo de anotación y decisiones de interfaz, con desarrollo asistido por IA. **Pablo Aguirre Araya, médico en Chile.** Próximos pasos: observar uso profesional, evaluar impresión y recuperación de estudios y revisar permisos de los recursos.
 
-## Próximos pasos
-
-- Observar el uso por profesionales y revisar la claridad de las herramientas.
-- Evaluar la legibilidad del documento impreso y la recuperación de estudios.
-- Revisar la procedencia y los permisos del material anatómico antes de distribuir un paquete de código y recursos.
-
-[Abrir la demo](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Contacto](mailto:pablo.aguirre.araya@gmail.com)
+[Abrir la demo](https://mapa-cervical-salvador.pablo-aguirre.chatgpt.site) · [Detalles de las capturas](docs/screenshots.md)
